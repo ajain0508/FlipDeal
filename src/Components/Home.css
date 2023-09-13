@@ -1,0 +1,26 @@
+/* this css in home will make it limited to 1500px and will not stretch after that */
+.home{
+    display:flex;
+    justify-content: cenetr;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.home_image{
+    width:100%;
+    z-index:-1;
+    margin-bottom: -150px;
+    /* mask image is important for fading image in bottom */
+    mask-image: linear-gradient(to bottom,rgb(6, 7, 7),rgba(0,0,0,0));
+}
+
+/* it allows us to use the entire space  (the white one)*/
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
